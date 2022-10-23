@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  background: yellowgreen;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  background: blueviolet;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px white, 0 0 0 20px black, 0 0 0 30px white,
+    0 0 0 40px black, 0 0 0 40px white;
+}
